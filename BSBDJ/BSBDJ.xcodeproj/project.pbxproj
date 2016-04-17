@@ -40,6 +40,7 @@
 		01B3CD071CC39A0400CD7FAF /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B3CD001CC39A0400CD7FAF /* LaunchImage@2x.png */; };
 		01B3CD091CC39A2200CD7FAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01B3CD081CC39A2200CD7FAF /* Assets.xcassets */; };
 		01B3CD0B1CC39A5D00CD7FAF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01B3CD0A1CC39A5D00CD7FAF /* Info.plist */; };
+		133DFEC94A7B838394E708E5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F896CEFFDDD59DDD135D3E /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,14 +102,14 @@
 		01B3CCCF1CC399CD00CD7FAF /* UIImage+OriImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OriImage.m"; sourceTree = "<group>"; };
 		01B3CCD01CC399CD00CD7FAF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		01B3CCD11CC399CD00CD7FAF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		01B3CCD21CC399CD00CD7FAF /* CH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CH.pch; sourceTree = "<group>"; };
+		01B3CCD21CC399CD00CD7FAF /* CH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CH.pch; path = ../CH.pch; sourceTree = "<group>"; };
 		01B3CCD41CC399CD00CD7FAF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01B3CCD71CC399CD00CD7FAF /* CHPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPublishController.h; sourceTree = "<group>"; };
 		01B3CCD81CC399CD00CD7FAF /* CHPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPublishController.m; sourceTree = "<group>"; };
 		01B3CCDD1CC399CD00CD7FAF /* CHShareController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHShareController.h; sourceTree = "<group>"; };
 		01B3CCDE1CC399CD00CD7FAF /* CHShareController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHShareController.m; sourceTree = "<group>"; };
-		01B3CCF61CC399F700CD7FAF /* CHConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHConst.h; sourceTree = "<group>"; };
-		01B3CCF71CC399F700CD7FAF /* CHConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHConst.m; sourceTree = "<group>"; };
+		01B3CCF61CC399F700CD7FAF /* CHConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CHConst.h; path = ../../CHConst.h; sourceTree = "<group>"; };
+		01B3CCF71CC399F700CD7FAF /* CHConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CHConst.m; path = ../../CHConst.m; sourceTree = "<group>"; };
 		01B3CCFA1CC39A0400CD7FAF /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-568h@2x.png"; sourceTree = "<group>"; };
 		01B3CCFB1CC39A0400CD7FAF /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
 		01B3CCFC1CC39A0400CD7FAF /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
@@ -118,6 +119,9 @@
 		01B3CD001CC39A0400CD7FAF /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage@2x.png"; sourceTree = "<group>"; };
 		01B3CD081CC39A2200CD7FAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01B3CD0A1CC39A5D00CD7FAF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37C5BA9A82F34A9D9236CF6C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3EF113078DD49CBE12DF14DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		E3F896CEFFDDD59DDD135D3E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +129,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				133DFEC94A7B838394E708E5 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +157,8 @@
 				01B3CC7F1CC3990600CD7FAF /* BSBDJTests */,
 				01B3CC8A1CC3990600CD7FAF /* BSBDJUITests */,
 				01B3CC641CC3990500CD7FAF /* Products */,
+				BEFBF76C8D35C97456CC6669 /* Pods */,
+				5C4A08D0F4A6CFB3BCCBBF97 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -179,8 +186,6 @@
 			children = (
 				01B3CD081CC39A2200CD7FAF /* Assets.xcassets */,
 				01B3CCF91CC39A0400CD7FAF /* 启动图片 */,
-				01B3CCF61CC399F700CD7FAF /* CHConst.h */,
-				01B3CCF71CC399F700CD7FAF /* CHConst.m */,
 				01B3CD0A1CC39A5D00CD7FAF /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -403,8 +408,9 @@
 			children = (
 				01B3CCC71CC399CD00CD7FAF /* AppDelegate.h */,
 				01B3CCC81CC399CD00CD7FAF /* AppDelegate.m */,
+				01B3CCF61CC399F700CD7FAF /* CHConst.h */,
+				01B3CCF71CC399F700CD7FAF /* CHConst.m */,
 				01B3CCC91CC399CD00CD7FAF /* Category */,
-				01B3CCD21CC399CD00CD7FAF /* CH.pch */,
 				01B3CCD31CC399CD00CD7FAF /* Lib */,
 				01B3CCD41CC399CD00CD7FAF /* main.m */,
 			);
@@ -422,6 +428,7 @@
 				01B3CCCF1CC399CD00CD7FAF /* UIImage+OriImage.m */,
 				01B3CCD01CC399CD00CD7FAF /* UIView+Frame.h */,
 				01B3CCD11CC399CD00CD7FAF /* UIView+Frame.m */,
+				01B3CCD21CC399CD00CD7FAF /* CH.pch */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -513,6 +520,23 @@
 			path = "启动图片";
 			sourceTree = "<group>";
 		};
+		5C4A08D0F4A6CFB3BCCBBF97 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3F896CEFFDDD59DDD135D3E /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BEFBF76C8D35C97456CC6669 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37C5BA9A82F34A9D9236CF6C /* Pods.debug.xcconfig */,
+				3EF113078DD49CBE12DF14DE /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -520,9 +544,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01B3CC901CC3990600CD7FAF /* Build configuration list for PBXNativeTarget "BSBDJ" */;
 			buildPhases = (
+				F6EDD22593A299122E92D484 /* Check Pods Manifest.lock */,
 				01B3CC5F1CC3990500CD7FAF /* Sources */,
 				01B3CC601CC3990500CD7FAF /* Frameworks */,
 				01B3CC611CC3990500CD7FAF /* Resources */,
+				B34B3D03223F540615DD7E7E /* Embed Pods Frameworks */,
+				E434D8E3D76A4AF00B93AE01 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -648,6 +675,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B34B3D03223F540615DD7E7E /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E434D8E3D76A4AF00B93AE01 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6EDD22593A299122E92D484 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		01B3CC5F1CC3990500CD7FAF /* Sources */ = {
@@ -793,8 +868,11 @@
 		};
 		01B3CC911CC3990600CD7FAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37C5BA9A82F34A9D9236CF6C /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BSBDJ/Classes/Other/CH.pch;
 				INFOPLIST_FILE = BSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nick.BSBDJ;
@@ -804,8 +882,11 @@
 		};
 		01B3CC921CC3990600CD7FAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EF113078DD49CBE12DF14DE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = BSBDJ/Classes/Other/CH.pch;
 				INFOPLIST_FILE = BSBDJ/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nick.BSBDJ;
