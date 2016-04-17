@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CHADViewController">
+            <connections>
+                <outlet property="clearBottonView" destination="jkb-ji-OzK" id="GH2-iO-aAn"/>
+                <outlet property="jumpBtn" destination="Tp4-cA-dkk" id="J3o-Zb-pb1"/>
+                <outlet property="launchImageView" destination="9x2-rd-Uiz" id="6UU-7R-qrR"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9x2-rd-Uiz">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jkb-ji-OzK">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tp4-cA-dkk">
+                    <rect key="frame" x="308" y="10" width="47" height="29"/>
+                    <color key="backgroundColor" red="0.60000002379999995" green="0.60000002379999995" blue="0.60000002379999995" alpha="0.8610452586206897" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="跳转(3)">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="jumpVC" destination="-1" eventType="touchUpInside" id="YQA-uL-m3w"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="9x2-rd-Uiz" secondAttribute="trailing" id="5jk-Ne-I2K"/>
+                <constraint firstAttribute="trailing" secondItem="Tp4-cA-dkk" secondAttribute="trailing" constant="20" id="MfE-ZC-0hI"/>
+                <constraint firstItem="9x2-rd-Uiz" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Vr6-sa-8wS"/>
+                <constraint firstItem="jkb-ji-OzK" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="dRD-QJ-Ddk"/>
+                <constraint firstAttribute="bottom" secondItem="9x2-rd-Uiz" secondAttribute="bottom" id="hsQ-IH-VaG"/>
+                <constraint firstAttribute="bottom" secondItem="jkb-ji-OzK" secondAttribute="bottom" id="iik-XT-ncN"/>
+                <constraint firstItem="jkb-ji-OzK" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="pea-T6-Vyj"/>
+                <constraint firstItem="Tp4-cA-dkk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="pvV-s1-rlL"/>
+                <constraint firstItem="9x2-rd-Uiz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rKc-yF-CRD"/>
+                <constraint firstAttribute="trailing" secondItem="jkb-ji-OzK" secondAttribute="trailing" id="xB5-Mh-1Bx"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="359.5" y="350.5"/>
+        </view>
+    </objects>
+</document>
