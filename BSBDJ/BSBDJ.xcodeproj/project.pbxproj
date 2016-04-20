@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		016EA0141CC75C0700691766 /* CHMineController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 016EA0131CC75C0700691766 /* CHMineController.storyboard */; };
+		016EA0181CC76B6000691766 /* CHHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 016EA0171CC76B6000691766 /* CHHttpTool.m */; };
+		016EA01B1CC76CCA00691766 /* CHSquareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 016EA01A1CC76CCA00691766 /* CHSquareItem.m */; };
+		016EA01F1CC7722300691766 /* CHSquareCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 016EA01D1CC7722300691766 /* CHSquareCell.m */; };
+		016EA0201CC7722300691766 /* CHSquareCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 016EA01E1CC7722300691766 /* CHSquareCell.xib */; };
 		01B3CC811CC3990600CD7FAF /* BSBDJTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B3CC801CC3990600CD7FAF /* BSBDJTests.m */; };
 		01B3CC8C1CC3990600CD7FAF /* BSBDJUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B3CC8B1CC3990600CD7FAF /* BSBDJUITests.m */; };
 		01B3CCE11CC399CD00CD7FAF /* CHADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B3CC9D1CC399CD00CD7FAF /* CHADViewController.m */; };
@@ -61,6 +66,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		016EA0131CC75C0700691766 /* CHMineController.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CHMineController.storyboard; sourceTree = "<group>"; };
+		016EA0161CC76B6000691766 /* CHHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHHttpTool.h; sourceTree = "<group>"; };
+		016EA0171CC76B6000691766 /* CHHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHHttpTool.m; sourceTree = "<group>"; };
+		016EA0191CC76CCA00691766 /* CHSquareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSquareItem.h; sourceTree = "<group>"; };
+		016EA01A1CC76CCA00691766 /* CHSquareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSquareItem.m; sourceTree = "<group>"; };
+		016EA01C1CC7722300691766 /* CHSquareCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHSquareCell.h; sourceTree = "<group>"; };
+		016EA01D1CC7722300691766 /* CHSquareCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHSquareCell.m; sourceTree = "<group>"; };
+		016EA01E1CC7722300691766 /* CHSquareCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHSquareCell.xib; sourceTree = "<group>"; };
 		01B3CC631CC3990500CD7FAF /* BSBDJ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BSBDJ.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B3CC7C1CC3990600CD7FAF /* BSBDJTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BSBDJTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		01B3CC801CC3990600CD7FAF /* BSBDJTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BSBDJTests.m; sourceTree = "<group>"; };
@@ -102,7 +115,7 @@
 		01B3CCCF1CC399CD00CD7FAF /* UIImage+OriImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OriImage.m"; sourceTree = "<group>"; };
 		01B3CCD01CC399CD00CD7FAF /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
 		01B3CCD11CC399CD00CD7FAF /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
-		01B3CCD21CC399CD00CD7FAF /* CH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CH.pch; path = ../CH.pch; sourceTree = "<group>"; };
+		01B3CCD21CC399CD00CD7FAF /* CH.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CH.pch; sourceTree = "<group>"; };
 		01B3CCD41CC399CD00CD7FAF /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		01B3CCD71CC399CD00CD7FAF /* CHPublishController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHPublishController.h; sourceTree = "<group>"; };
 		01B3CCD81CC399CD00CD7FAF /* CHPublishController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHPublishController.m; sourceTree = "<group>"; };
@@ -150,6 +163,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		016EA0151CC76B6000691766 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				016EA0161CC76B6000691766 /* CHHttpTool.h */,
+				016EA0171CC76B6000691766 /* CHHttpTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
 		01B3CC5A1CC3990500CD7FAF = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +367,7 @@
 			children = (
 				01B3CCB51CC399CD00CD7FAF /* CHMineController.h */,
 				01B3CCB61CC399CD00CD7FAF /* CHMineController.m */,
+				016EA0131CC75C0700691766 /* CHMineController.storyboard */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -352,6 +375,8 @@
 		01B3CCB71CC399CD00CD7FAF /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				016EA0191CC76CCA00691766 /* CHSquareItem.h */,
+				016EA01A1CC76CCA00691766 /* CHSquareItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -359,6 +384,9 @@
 		01B3CCB81CC399CD00CD7FAF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				016EA01C1CC7722300691766 /* CHSquareCell.h */,
+				016EA01D1CC7722300691766 /* CHSquareCell.m */,
+				016EA01E1CC7722300691766 /* CHSquareCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -410,9 +438,11 @@
 				01B3CCC81CC399CD00CD7FAF /* AppDelegate.m */,
 				01B3CCF61CC399F700CD7FAF /* CHConst.h */,
 				01B3CCF71CC399F700CD7FAF /* CHConst.m */,
+				01B3CCD21CC399CD00CD7FAF /* CH.pch */,
 				01B3CCC91CC399CD00CD7FAF /* Category */,
 				01B3CCD31CC399CD00CD7FAF /* Lib */,
 				01B3CCD41CC399CD00CD7FAF /* main.m */,
+				016EA0151CC76B6000691766 /* Tool */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -428,7 +458,6 @@
 				01B3CCCF1CC399CD00CD7FAF /* UIImage+OriImage.m */,
 				01B3CCD01CC399CD00CD7FAF /* UIView+Frame.h */,
 				01B3CCD11CC399CD00CD7FAF /* UIView+Frame.m */,
-				01B3CCD21CC399CD00CD7FAF /* CH.pch */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -647,7 +676,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				01B3CD061CC39A0400CD7FAF /* LaunchImage.png in Resources */,
+				016EA0201CC7722300691766 /* CHSquareCell.xib in Resources */,
 				01B3CD071CC39A0400CD7FAF /* LaunchImage@2x.png in Resources */,
+				016EA0141CC75C0700691766 /* CHMineController.storyboard in Resources */,
 				01B3CCE21CC399CD00CD7FAF /* CHADViewController.xib in Resources */,
 				01B3CD041CC39A0400CD7FAF /* LaunchImage-800-667h@2x.png in Resources */,
 				01B3CD091CC39A2200CD7FAF /* Assets.xcassets in Resources */,
@@ -737,11 +768,14 @@
 				01B3CCE91CC399CD00CD7FAF /* CHNewController.m in Sources */,
 				01B3CCEC1CC399CD00CD7FAF /* CHSubTagViewCell.m in Sources */,
 				01B3CCE71CC399CD00CD7FAF /* CHTabBar.m in Sources */,
+				016EA0181CC76B6000691766 /* CHHttpTool.m in Sources */,
 				01B3CCF31CC399CD00CD7FAF /* main.m in Sources */,
 				01B3CCF21CC399CD00CD7FAF /* UIView+Frame.m in Sources */,
 				01B3CCF51CC399CD00CD7FAF /* CHShareController.m in Sources */,
 				01B3CCEF1CC399CD00CD7FAF /* UIBarButtonItem+Item.m in Sources */,
 				01B3CCE81CC399CD00CD7FAF /* CHMineController.m in Sources */,
+				016EA01F1CC7722300691766 /* CHSquareCell.m in Sources */,
+				016EA01B1CC76CCA00691766 /* CHSquareItem.m in Sources */,
 				01B3CCF81CC399F700CD7FAF /* CHConst.m in Sources */,
 				01B3CCF41CC399CD00CD7FAF /* CHPublishController.m in Sources */,
 				01B3CCE31CC399CD00CD7FAF /* CHADItem.m in Sources */,

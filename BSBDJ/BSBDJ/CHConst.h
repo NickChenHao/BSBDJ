@@ -10,3 +10,9 @@
 #import <UIKit/UIKit.h>
 
 UIKIT_EXTERN NSString * const BaseURL;
+
+UIKIT_EXTERN CGFloat const Magin;
+
+UIKIT_EXTERN CGFloat const NavMaxY;
+
+UIKIT_EXTERN CGFloat const titleH;
