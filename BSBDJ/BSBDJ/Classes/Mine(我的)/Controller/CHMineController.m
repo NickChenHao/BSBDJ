@@ -10,7 +10,7 @@
 #import <MJExtension.h>
 #import "CHSquareItem.h"
 #import "CHSquareCell.h"
-
+#import "CHWebViewController.h"
 static NSInteger const cols = 4;
 static NSInteger const maginXY = 1;
 #define itemWH (CHScreenW - (cols -1) * maginXY) / cols
@@ -90,7 +90,7 @@ static NSString * ID = @"cell";
     params[@"a"] = @"square";
     params[@"c"] = @"topic";
     //请求数据
-    [CHHttpTool get_AFN:BaseURL params:params success:^(id responseObj) {
+    [CHHttpTool get_AFN:BaseURL params:params success:^(NSDictionary * responseObj) {
         
         // 字典数组
         NSArray *dictArr = responseObj[@"square_list"];
@@ -148,6 +148,10 @@ static NSString * ID = @"cell";
 #pragma mark - UICollectionViewDelegate 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     
-    
+    CHSquareItem *item = self.squareItems[indexPath.row];
+    if (![item.url containsString:@"http"]) return;
+    CHWebViewController *webView = [[CHWebViewController alloc] init];
+    webView.url = [NSURL URLWithString:item.url];
+    [self.navigationController pushViewController:webView animated:YES];
 }
 @end
