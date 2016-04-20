@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
+@class CHSquareItem;
 @interface CHSquareCell : UICollectionViewCell
-
+/** 模型*/
+@property (nonatomic, strong) CHSquareItem *item;
 @end
