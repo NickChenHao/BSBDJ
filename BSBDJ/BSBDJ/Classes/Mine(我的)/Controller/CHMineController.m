@@ -14,7 +14,7 @@
 static NSInteger const cols = 4;
 static NSInteger const maginXY = 1;
 #define itemWH (CHScreenW - (cols -1) * maginXY) / cols
-@interface CHMineController ()<UICollectionViewDataSource>
+@interface CHMineController ()<UICollectionViewDataSource,UICollectionViewDelegate>
 /** 模型*/
 @property (nonatomic, strong) NSMutableArray *squareItems;
 /** collectionView*/
@@ -38,7 +38,10 @@ static NSString * ID = @"cell";
     //设置数据
     [self loadData];
     
-    self.automaticallyAdjustsScrollViewInsets = false;
+    //分组模式有头部尾部高度
+    self.tableView.sectionHeaderHeight = 0;
+    self.tableView.sectionFooterHeight = Magin;
+    
     //设置额外滚动区域
     self.tableView.contentInset = UIEdgeInsetsMake(Magin - 35, 0, 0, 0);
     
@@ -74,6 +77,7 @@ static NSString * ID = @"cell";
     self.tableView.tableFooterView = collectionView;
     
     collectionView.dataSource = self;
+    collectionView.delegate = self;
     _collectionView = collectionView;
     
     //注册
@@ -102,7 +106,7 @@ static NSString * ID = @"cell";
         NSInteger count = self.squareItems.count;
         CGFloat rows = (count - 1) / cols + 1;
         //设置高度
-        CGFloat height = rows * maginXY * (rows - 1) * itemWH;
+        CGFloat height = rows * itemWH + maginXY * (rows - 1);
         
         self.collectionView.ch_height = height;
         //让FooterView和collectinView高度一样
@@ -139,5 +143,11 @@ static NSString * ID = @"cell";
     cell.item = self.squareItems[indexPath.row];
     
     return cell;
+}
+
+#pragma mark - UICollectionViewDelegate 
+- (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    
 }
 @end

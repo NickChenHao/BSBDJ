@@ -50,6 +50,7 @@
                 <constraint firstItem="9x2-rd-Uiz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="rKc-yF-CRD"/>
                 <constraint firstAttribute="trailing" secondItem="jkb-ji-OzK" secondAttribute="trailing" id="xB5-Mh-1Bx"/>
             </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
             <point key="canvasLocation" x="359.5" y="350.5"/>
         </view>
