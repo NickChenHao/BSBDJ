@@ -136,7 +136,6 @@ static NSString * ID = @"cell";
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     CHSquareCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:ID forIndexPath:indexPath];
     
-    
     cell.item = self.squareItems[indexPath.row];
     
     return cell;

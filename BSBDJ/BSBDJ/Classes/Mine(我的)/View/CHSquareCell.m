@@ -7,12 +7,22 @@
 //
 
 #import "CHSquareCell.h"
+#import "CHSquareItem.h"
+#import <UIImageView+WebCache.h>
+@interface CHSquareCell ()
+@property (weak, nonatomic) IBOutlet UIImageView *iconImageView;
+@property (weak, nonatomic) IBOutlet UILabel *nameLabel;
 
+@end
 @implementation CHSquareCell
 
-- (void)awakeFromNib {
-    [super awakeFromNib];
-    // Initialization code
+- (void)setItem:(CHSquareItem *)item{
+    
+    _item = item;
+    
+    // 给子控件赋值
+    [_iconImageView sd_setImageWithURL:[NSURL URLWithString:item.icon]];
+    _nameLabel.text = item.name;
 }
 
 @end
