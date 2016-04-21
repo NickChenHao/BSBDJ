@@ -7,7 +7,7 @@
 //
 
 #import "CHShareController.h"
-
+#import "CHLoginViewController.h"
 @interface CHShareController ()
 
 @end
@@ -18,7 +18,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.view.backgroundColor = CHRandomlyColor;
     [self setUpNavBar];
 }
 
@@ -27,6 +26,11 @@
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:[UIImage imageNamed:@"friendsRecommentIcon"] selImage:nil highImage:[UIImage imageWithOriImageName:@"friendsRecommentIcon-click"] target:self action:nil];
     
     self.navigationItem.title = @"关注";
+}
+- (IBAction)LoginBtn {
+    CHLoginViewController *vc = [[CHLoginViewController alloc] init];
+    
+    [self.navigationController presentViewController:vc animated:YES completion:nil];
 }
 
 @end

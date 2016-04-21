@@ -47,6 +47,15 @@
 		01B3CD0B1CC39A5D00CD7FAF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 01B3CD0A1CC39A5D00CD7FAF /* Info.plist */; };
 		01C03E1E1CC77DB800CE22C7 /* CHWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C03E1C1CC77DB800CE22C7 /* CHWebViewController.m */; };
 		01C03E1F1CC77DB800CE22C7 /* CHWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C03E1D1CC77DB800CE22C7 /* CHWebViewController.xib */; };
+		01C03E211CC783DF00CE22C7 /* CHShareController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C03E201CC783DF00CE22C7 /* CHShareController.xib */; };
+		01C03E251CC85CFA00CE22C7 /* CHLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C03E231CC85CFA00CE22C7 /* CHLoginViewController.m */; };
+		01C03E261CC85CFA00CE22C7 /* CHLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C03E241CC85CFA00CE22C7 /* CHLoginViewController.xib */; };
+		01C03E291CC8623A00CE22C7 /* CHLoginRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C03E281CC8623A00CE22C7 /* CHLoginRegisterView.m */; };
+		01C03E2B1CC8624900CE22C7 /* CHLoginRegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C03E2A1CC8624900CE22C7 /* CHLoginRegisterView.xib */; };
+		01C03E311CC86CC600CE22C7 /* CHTextFieldColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C03E301CC86CC600CE22C7 /* CHTextFieldColor.m */; };
+		01C03E371CC8782D00CE22C7 /* CHFastLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C03E361CC8782D00CE22C7 /* CHFastLogin.m */; };
+		01C03E3A1CC87EA100CE22C7 /* CHFastLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = 01C03E391CC87EA100CE22C7 /* CHFastLoginView.m */; };
+		01C03E3C1CC87EBB00CE22C7 /* CHFastLoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01C03E3B1CC87EBB00CE22C7 /* CHFastLoginView.xib */; };
 		133DFEC94A7B838394E708E5 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F896CEFFDDD59DDD135D3E /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -137,6 +146,20 @@
 		01C03E1B1CC77DB800CE22C7 /* CHWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHWebViewController.h; sourceTree = "<group>"; };
 		01C03E1C1CC77DB800CE22C7 /* CHWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHWebViewController.m; sourceTree = "<group>"; };
 		01C03E1D1CC77DB800CE22C7 /* CHWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHWebViewController.xib; sourceTree = "<group>"; };
+		01C03E201CC783DF00CE22C7 /* CHShareController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHShareController.xib; sourceTree = "<group>"; };
+		01C03E221CC85CFA00CE22C7 /* CHLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginViewController.h; sourceTree = "<group>"; };
+		01C03E231CC85CFA00CE22C7 /* CHLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginViewController.m; sourceTree = "<group>"; };
+		01C03E241CC85CFA00CE22C7 /* CHLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHLoginViewController.xib; sourceTree = "<group>"; };
+		01C03E271CC8623A00CE22C7 /* CHLoginRegisterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHLoginRegisterView.h; sourceTree = "<group>"; };
+		01C03E281CC8623A00CE22C7 /* CHLoginRegisterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHLoginRegisterView.m; sourceTree = "<group>"; };
+		01C03E2A1CC8624900CE22C7 /* CHLoginRegisterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHLoginRegisterView.xib; sourceTree = "<group>"; };
+		01C03E2F1CC86CC600CE22C7 /* CHTextFieldColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHTextFieldColor.h; sourceTree = "<group>"; };
+		01C03E301CC86CC600CE22C7 /* CHTextFieldColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHTextFieldColor.m; sourceTree = "<group>"; };
+		01C03E351CC8782D00CE22C7 /* CHFastLogin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHFastLogin.h; sourceTree = "<group>"; };
+		01C03E361CC8782D00CE22C7 /* CHFastLogin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHFastLogin.m; sourceTree = "<group>"; };
+		01C03E381CC87EA100CE22C7 /* CHFastLoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHFastLoginView.h; sourceTree = "<group>"; };
+		01C03E391CC87EA100CE22C7 /* CHFastLoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHFastLoginView.m; sourceTree = "<group>"; };
+		01C03E3B1CC87EBB00CE22C7 /* CHFastLoginView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CHFastLoginView.xib; sourceTree = "<group>"; };
 		37C5BA9A82F34A9D9236CF6C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		3EF113078DD49CBE12DF14DE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		E3F896CEFFDDD59DDD135D3E /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -525,6 +548,10 @@
 			children = (
 				01B3CCDD1CC399CD00CD7FAF /* CHShareController.h */,
 				01B3CCDE1CC399CD00CD7FAF /* CHShareController.m */,
+				01C03E201CC783DF00CE22C7 /* CHShareController.xib */,
+				01C03E221CC85CFA00CE22C7 /* CHLoginViewController.h */,
+				01C03E231CC85CFA00CE22C7 /* CHLoginViewController.m */,
+				01C03E241CC85CFA00CE22C7 /* CHLoginViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -539,6 +566,16 @@
 		01B3CCE01CC399CD00CD7FAF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				01C03E2F1CC86CC600CE22C7 /* CHTextFieldColor.h */,
+				01C03E301CC86CC600CE22C7 /* CHTextFieldColor.m */,
+				01C03E271CC8623A00CE22C7 /* CHLoginRegisterView.h */,
+				01C03E281CC8623A00CE22C7 /* CHLoginRegisterView.m */,
+				01C03E2A1CC8624900CE22C7 /* CHLoginRegisterView.xib */,
+				01C03E381CC87EA100CE22C7 /* CHFastLoginView.h */,
+				01C03E391CC87EA100CE22C7 /* CHFastLoginView.m */,
+				01C03E3B1CC87EBB00CE22C7 /* CHFastLoginView.xib */,
+				01C03E351CC8782D00CE22C7 /* CHFastLogin.h */,
+				01C03E361CC8782D00CE22C7 /* CHFastLogin.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -687,6 +724,8 @@
 				01B3CD061CC39A0400CD7FAF /* LaunchImage.png in Resources */,
 				016EA0201CC7722300691766 /* CHSquareCell.xib in Resources */,
 				01B3CD071CC39A0400CD7FAF /* LaunchImage@2x.png in Resources */,
+				01C03E2B1CC8624900CE22C7 /* CHLoginRegisterView.xib in Resources */,
+				01C03E3C1CC87EBB00CE22C7 /* CHFastLoginView.xib in Resources */,
 				016EA0141CC75C0700691766 /* CHMineController.storyboard in Resources */,
 				01B3CCE21CC399CD00CD7FAF /* CHADViewController.xib in Resources */,
 				01B3CD041CC39A0400CD7FAF /* LaunchImage-800-667h@2x.png in Resources */,
@@ -696,6 +735,8 @@
 				01B3CD021CC39A0400CD7FAF /* LaunchImage-700-568h@2x.png in Resources */,
 				01B3CD0B1CC39A5D00CD7FAF /* Info.plist in Resources */,
 				01B3CCED1CC399CD00CD7FAF /* CHSubTagViewCell.xib in Resources */,
+				01C03E261CC85CFA00CE22C7 /* CHLoginViewController.xib in Resources */,
+				01C03E211CC783DF00CE22C7 /* CHShareController.xib in Resources */,
 				01B3CD051CC39A0400CD7FAF /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -772,12 +813,14 @@
 				01C03E1E1CC77DB800CE22C7 /* CHWebViewController.m in Sources */,
 				01B3CCEA1CC399CD00CD7FAF /* CHSubTagController.m in Sources */,
 				01B3CCEB1CC399CD00CD7FAF /* CHSubTagItem.m in Sources */,
+				01C03E251CC85CFA00CE22C7 /* CHLoginViewController.m in Sources */,
 				01B3CCF01CC399CD00CD7FAF /* UIImage+image.m in Sources */,
 				01B3CCE61CC399CD00CD7FAF /* CHTabBarController.m in Sources */,
 				01B3CCE11CC399CD00CD7FAF /* CHADViewController.m in Sources */,
 				01B3CCE91CC399CD00CD7FAF /* CHNewController.m in Sources */,
 				01B3CCEC1CC399CD00CD7FAF /* CHSubTagViewCell.m in Sources */,
 				01B3CCE71CC399CD00CD7FAF /* CHTabBar.m in Sources */,
+				01C03E311CC86CC600CE22C7 /* CHTextFieldColor.m in Sources */,
 				016EA0181CC76B6000691766 /* CHHttpTool.m in Sources */,
 				01B3CCF31CC399CD00CD7FAF /* main.m in Sources */,
 				01B3CCF21CC399CD00CD7FAF /* UIView+Frame.m in Sources */,
@@ -789,7 +832,10 @@
 				01B3CCF81CC399F700CD7FAF /* CHConst.m in Sources */,
 				01B3CCF41CC399CD00CD7FAF /* CHPublishController.m in Sources */,
 				01B3CCE31CC399CD00CD7FAF /* CHADItem.m in Sources */,
+				01C03E371CC8782D00CE22C7 /* CHFastLogin.m in Sources */,
 				01B3CCE41CC399CD00CD7FAF /* CHEssenceController.m in Sources */,
+				01C03E291CC8623A00CE22C7 /* CHLoginRegisterView.m in Sources */,
+				01C03E3A1CC87EA100CE22C7 /* CHFastLoginView.m in Sources */,
 				01B3CCE51CC399CD00CD7FAF /* CHNavController.m in Sources */,
 				01B3CCF11CC399CD00CD7FAF /* UIImage+OriImage.m in Sources */,
 				01B3CCEE1CC399CD00CD7FAF /* AppDelegate.m in Sources */,
